@@ -1,0 +1,85 @@
+p.but_add {
+    float: right;
+    display: inline-block;
+}
+
+p.but_add a {
+    border: 0;
+    background: #11e80e;
+    padding: 8px 20px;
+    color: #040202;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 9px;
+    transition: all 0.2s ease-in;
+}
+
+p.but_add a:hover {
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+}
+
+	.kus_log {
+	
+	border: 2px solid #f72e0e;
+    background: #360ce0;
+    padding: 4px 8px;
+    border-radius: 7px 0;
+    color: #fff2f2;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+    font-weight: 600;
+	
+	
+}
+
+.kus_log:hover {
+    background: #0ce0e0;
+    color: #000;
+}
+
+
+
+/************CK EDITOR***********************/
+
+div#cke_1_contents {
+    height: 140px !important;
+}
+
+/************CK EDITOR END***********************/
+ /* Set gray background color and 100% height */
+.row.content {height: 1500px} 
+
+/* .row.content {
+height: auto;
+} */
+
+/* Set gray background color and 100% height */
+.sidenav {
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+	height: auto;
+	padding: 15px;
+  }
+	  
+	  
+	  
+.form-control.kus_input {
+    width: 70% ;
+}
+
+
